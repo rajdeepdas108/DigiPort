@@ -1,15 +1,15 @@
 {
-  "title": "John Doe",
-  "url": "https://myurl.com/",
-  "description": "Photographer and Web Designer",
+  "title": "Rajdeep Das",
+  "url": "www.linkedin.com/in/rajdeepdas108",
+  "description": " Innovator in Web & Mobile App Development | Future-Ready Technologist",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am a Student at Netaji Subhash Engineering College (NSEC) || Ambitious B.TECH CSE Student.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Rajdeep Das",
+    "email": "drajdeep00108@gmail.com"
   }
 }
