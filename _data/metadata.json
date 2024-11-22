@@ -1,15 +1,16 @@
 {
   "title": "Rajdeep Das",
-  "url": "www.linkedin.com/in/rajdeepdas108",
-  "description": " Innovator in Web & Mobile App Development | Future-Ready Technologist",
+  "url": "https://linkedin.com/in/rajdeepdas108",
+  "description": " Innovator in Tech | Founder of BongBeast Infotech Pvt. Ltd. | Future-Ready Technologist",
   "feed": {
-    "subtitle": "I am a Student at Netaji Subhash Engineering College (NSEC) || Ambitious B.TECH CSE Student.",
+    "subtitle": "I am a Tech enthusiast Student at Netaji Subhash Engineering College (NSEC) || Ambitious B.TECH CSE Student.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://myurl.com/"
   },
   "author": {
     "name": "Rajdeep Das",
-    "email": "drajdeep00108@gmail.com"
+    "email": "drajdeep00108@gmail.com",
+     "url": "https://bongcreation.site"
   }
 }
