@@ -1,14 +1,13 @@
 ---
-title: Underwater
-description: This is a photo called underwater
+title: Blockchain Development
+description: This is a modern technology
 date: 2018-05-04
 tags:
   - photo
 layout: layouts/post.njk
-image: /img/w3images/underwater.jpg
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum ex elit, quis varius ipsum mollis nec. Fusce dignissim suscipit tempus. Aenean convallis ex vel imperdiet interdum. Fusce sit amet ex ac nisi tristique dictum quis quis felis. Nulla pharetra at dolor non consectetur. Sed fermentum lobortis eros, ut accumsan ligula facilisis sit amet. Integer mollis ullamcorper mauris vitae lobortis. Cras eu justo sed neque pellentesque facilisis ut sed magna. Nunc sed tincidunt mauris, ut varius metus. Praesent molestie orci euismod purus sagittis, sit amet dignissim leo dapibus. Phasellus id mauris ut ipsum imperdiet finibus. Curabitur interdum sapien ac elit viverra vestibulum. Integer rutrum sed odio sit amet ultricies. Suspendisse placerat augue in odio placerat suscipit.
+image: /img/w3images/bc.jpg
+---Blockchain development revolves around building decentralized applications (dApps) and platforms that utilize blockchain technology to store and manage data securely. It involves designing smart contracts, which are self-executing codes that automate agreements without intermediaries. Developers work on creating, managing, and deploying distributed ledgers, ensuring transparency and immutability in data transactions. Security is a critical aspect, as blockchain systems must be resistant to hacking and fraud. Blockchain development spans industries like finance, supply chain, healthcare, and more, enabling secure data exchange, tokenization, and decentralized ecosystems. Proficiency in languages like Solidity, JavaScript, and Python is essential for developing blockchain-based solutions.
 
 ![alt text]({{ image | url }} "Chef")
 
-Sed eu imperdiet augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut dignissim purus eu augue euismod, eget tempor velit ullamcorper. Cras in ullamcorper lectus. Quisque eleifend nibh eget dolor tincidunt, a facilisis mauris semper. Aenean tincidunt felis sem, eu rutrum ante posuere sed. Aliquam leo sapien, pulvinar sit amet enim sit amet, feugiat interdum felis. Aenean scelerisque pellentesque ante in pellentesque. Nulla eu sagittis ligula. Maecenas ut mauris eros. Quisque eget ipsum eget odio fermentum imperdiet. Integer rhoncus eleifend velit, eget mattis nulla auctor eget.
+Blockchain development revolves around building decentralized applications (dApps) and platforms that utilize blockchain technology to store and manage data securely. It involves designing smart contracts, which are self-executing codes that automate agreements without intermediaries. Developers work on creating, managing, and deploying distributed ledgers, ensuring transparency and immutability in data transactions. Security is a critical aspect, as blockchain systems must be resistant to hacking and fraud. Blockchain development spans industries like finance, supply chain, healthcare, and more, enabling secure data exchange, tokenization, and decentralized ecosystems. Proficiency in languages like Solidity, JavaScript, and Python is essential for developing blockchain-based solutions.
