@@ -1,14 +1,26 @@
 ---
-title: Sailboat
-description: This is a photo called sailbot
-date: 2018-05-03
+title: Web Development
+description: This is a certificate on Web Development
+date: 2024-11-23
 tags:
   - photo
 layout: layouts/post.njk
-image: /img/w3images/sailboat.jpg
+image: /img/w3images/wd.jpg
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum ex elit, quis varius ipsum mollis nec. Fusce dignissim suscipit tempus. Aenean convallis ex vel imperdiet interdum. Fusce sit amet ex ac nisi tristique dictum quis quis felis. Nulla pharetra at dolor non consectetur. Sed fermentum lobortis eros, ut accumsan ligula facilisis sit amet. Integer mollis ullamcorper mauris vitae lobortis. Cras eu justo sed neque pellentesque facilisis ut sed magna. Nunc sed tincidunt mauris, ut varius metus. Praesent molestie orci euismod purus sagittis, sit amet dignissim leo dapibus. Phasellus id mauris ut ipsum imperdiet finibus. Curabitur interdum sapien ac elit viverra vestibulum. Integer rutrum sed odio sit amet ultricies. Suspendisse placerat augue in odio placerat suscipit.
+**Web development** involves creating and maintaining websites and web applications. It encompasses two main areas:  
+
+1. **Frontend Development**: Focuses on the user interface (UI) and user experience (UX). It uses technologies like HTML, CSS, and JavaScript to design the visual layout, interactive elements, and responsiveness of websites.  
+
+2. **Backend Development**: Handles server-side operations, databases, and APIs. It ensures smooth functionality, data processing, and secure communication between servers and browsers. Technologies include Python, Node.js, PHP, and Ruby.  
+
+Web developers aim to build functional, visually appealing, and user-friendly platforms, ensuring compatibility across devices and browsers. The field also involves testing, debugging, and optimizing for performance and SEO.
 
 ![alt text]({{ image | url }} "Chef")
 
-Sed eu imperdiet augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut dignissim purus eu augue euismod, eget tempor velit ullamcorper. Cras in ullamcorper lectus. Quisque eleifend nibh eget dolor tincidunt, a facilisis mauris semper. Aenean tincidunt felis sem, eu rutrum ante posuere sed. Aliquam leo sapien, pulvinar sit amet enim sit amet, feugiat interdum felis. Aenean scelerisque pellentesque ante in pellentesque. Nulla eu sagittis ligula. Maecenas ut mauris eros. Quisque eget ipsum eget odio fermentum imperdiet. Integer rhoncus eleifend velit, eget mattis nulla auctor eget.
+**Web development** involves creating and maintaining websites and web applications. It encompasses two main areas:  
+
+1. **Frontend Development**: Focuses on the user interface (UI) and user experience (UX). It uses technologies like HTML, CSS, and JavaScript to design the visual layout, interactive elements, and responsiveness of websites.  
+
+2. **Backend Development**: Handles server-side operations, databases, and APIs. It ensures smooth functionality, data processing, and secure communication between servers and browsers. Technologies include Python, Node.js, PHP, and Ruby.  
+
+Web developers aim to build functional, visually appealing, and user-friendly platforms, ensuring compatibility across devices and browsers. The field also involves testing, debugging, and optimizing for performance and SEO.
