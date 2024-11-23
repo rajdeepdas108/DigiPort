@@ -1,251 +1,254 @@
----
-layout: layouts/home.njk
-fa-icon: 'fa-home'
-eleventyNavigation:
-  key: Home
-  order: 1
-  url: /#
----
-<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
- <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> {{ metadata.title }}.</h1>
-  <p> Innovator in Tech | Founder of BongBeast Infotech Pvt. Ltd. | Future-Ready Technologist</p>
-  <img src="{{ 'img/w3images/r.jpg' | url }}" alt="boy" class="w3-image" width="992" height="1108">
-</header>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajdeep Das Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #141e30, #243b55);
+            color: #ddd;
+        }
 
-<!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">About Me </h2>
-    <hr style="width:220px" class="w3-opacity">
-    <p> I am Rajdeep Das, a dynamic and driven technophile passionately pursuing a B.Tech in Computer Science and Engineering at the esteemed Netaji Subhash Engineering College. Immersed in the ever-evolving world of technology, I have cultivated an arsenal of cutting-edge skills, ranging from programming in Python and C++ to mastering next-generation technologies and frameworks. With an insatiable thirst for innovation and a commitment to excellence, I aim to harness my expertise to pioneer transformative solutions in the tech realm.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-blue">My Skills</h3>
-    <p class="w3-wide">Full Stack Development</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Cloud Computing</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-    </div>
-          <p class="w3-wide">App Development</p>
-      <div class="w3-white">
-        <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-      </div>
-    <p class="w3-wide">BlockChain Development</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
-    </div><br>
-    
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">50+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">108+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">110+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
+        h1, h2, h3, h4, p {
+            margin: 0;
+            padding: 0;
+        }
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="window.open('{{ 'files/cv.pdf' | url}}')">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-16">Basic</li>
-          <li class="w3-padding-16">Front-End Development</li>
-          <li class="w3-padding-16">UX/UI Design</li>
-          <li class="w3-padding-16">Chat Bot Support</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-12">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Backend Development</li>
-          <li class="w3-padding-16">Developing server-side APIs</li>
-          <li class="w3-padding-16">25GB Cloud Storage</li>
-          <li class="w3-padding-16">Call Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Max</li>
-          <li class="w3-padding-16">Full Stack Development</li>
-          <li class="w3-padding-16">Free Domain for One Year</li>
-          <li class="w3-padding-16">80GB Cloud Storage</li>
-          <li class="w3-padding-16">Endless Mail and Call Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 50</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Ultra</li>
-          <li class="w3-padding-16">Full Stack Development</li>
-          <li class="w3-padding-16">Free Domain and Web Hosting for 3 Years</li>
-          <li class="w3-padding-16">150GB Cloud Storage</li>
-          <li class="w3-padding-16">Endless Personalized Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 65</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="{{ '/img/w3images/sun.jpg' | url}}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Sundar Pichai.</span> CEO at Google.</p>
-    <p>Rajdeep Das saved us from a web disaster.</p><br>
-    
-    <img src="{{ '/img/w3images/tak.jpg' | url }}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Satya Nadella.</span> CEO at Microsoft.</p>
-    <p>No one is better than Rajdeep Das.</p>
+        a {
+            color: #00d9ff;
+            text-decoration: none;
+        }
 
-    <img src="{{ '/img/w3images/e.jpg' | url }}" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Elon Musk.</span> CEO at SpaceX.</p>
-    <p>Rajdeep Das is the best Full stack Developer ever I had seen .</p>
-  <!-- End About Section -->
-  </div>
+        a:hover {
+            color: #1f9ae0;
+        }
 
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(145deg, #1f2937, #111827);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        }
 
-<!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Certificates</h2>
-    <hr style="width:200px" class="w3-opacity">
+        header img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        }
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -20px">
+        header h1 {
+            font-size: 2.5rem;
+            color: #00d9ff;
+            margin-top: 20px;
+        }
 
-  {#  <div class="w3-half">
-    {% for post in collections.photo | head(-8) %}
-      {% if loop.index==4 %}
-      </div><div class="w3-half">
-      {% endif %}
-        <a href="{{ post.url | url}}"><img src = "{{ post.data.image | url }}" style="width:100%" > </a>
-        
-    {% endfor %}
-    
-    </div>
-#}
-    
-<style>
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
+        header p {
+            font-size: 1.2rem;
+            color: #ddd;
+            margin: 10px 0;
+        }
 
-/* Create two equal columns that sit next to each other */
-.column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-}
+        /* About Section */
+        #about {
+            padding: 60px 20px;
+        }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-  {% raw %}
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-  {% endraw %}
+        #about h2 {
+            font-size: 2rem;
+            color: #00d9ff;
+        }
 
-</style>
-<div class="row"> 
-  <div class="row">
-   {% for post in collections.photo | head(-8) %}
-   {% if loop.index==4 %}
-      </div><div class="row">
-      {% endif %}
-  
-    <a href="{{ post.url | url}}"><img src = "{{ post.data.image | url }}" style="width:100%;margin-bottom:0px" > </a>
-  
-  {% endfor %}
-  </div>
-  </div>
+        #about hr {
+            width: 150px;
+            margin: 10px auto;
+            border: 1px solid #00d9ff;
+        }
 
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
 
-     
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
- <div class="w3-content w3-justify w3-text-grey w3-padding-64">
-<h1>Latest 3 Posts</h1>
+        .skills div {
+            background: #1f2937;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
 
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
+        .skills div h4 {
+            color: #00d9ff;
+        }
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">The Archive</a>.</p>
-</div>
-<!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+        /* Pricing Section */
+        .pricing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 60px 20px;
+        }
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> KOLKATA, INDIA</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8597332868</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: drajdeep00108@gmail.com</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
+        .pricing-card {
+            background: linear-gradient(145deg, #1e293b, #17202b);
+            padding: 30px;
+            width: 250px;
+            border-radius: 12px;
+            text-align: center;
+            color: #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        }
 
+        .pricing-card h3 {
+            margin-bottom: 20px;
+            color: #00d9ff;
+        }
 
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .pricing-card ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+
+        .pricing-card button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #00d9ff;
+            border: none;
+            border-radius: 6px;
+            color: #000;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .pricing-card button:hover {
+            background: #1f9ae0;
+        }
+
+        /* Testimonials Section */
+        #testimonials {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #testimonials h2 {
+            color: #00d9ff;
+        }
+
+        .testimonial {
+            margin: 20px auto;
+            max-width: 600px;
+            background: #1f2937;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .testimonial:before {
+            content: "“";
+            font-size: 4rem;
+            color: #00d9ff;
+            position: absolute;
+            top: -20px;
+            left: 20px;
+        }
+
+        .testimonial:after {
+            content: "”";
+            font-size: 4rem;
+            color: #00d9ff;
+            position: absolute;
+            bottom: -20px;
+            right: 20px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            color: #ddd;
+        }
+
+        /* Footer */
+        footer {
+            background: #111827;
+            text-align: center;
+            padding: 20px 0;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00d9ff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://via.placeholder.com/200" alt="Rajdeep Das">
+        <h1>Rajdeep Das</h1>
+        <p>Innovator in Tech | Founder of BongBeast Infotech Pvt. Ltd.</p>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <hr>
+        <p>I am Rajdeep Das, a passionate B.Tech student in Computer Science and Engineering, committed to creating transformative tech solutions.</p>
+
+        <div class="skills">
+            <div>
+                <h4>Full Stack Development</h4>
+                <p>Proficient in modern frameworks.</p>
+            </div>
+            <div>
+                <h4>Cloud Computing</h4>
+                <p>Expertise in scalable solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <ul>
+                <li>Front-End Development</li>
+                <li>UX/UI Design</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rajdeep Das | Built with ❤ in Kolkata</p>
+    </footer>
+
+</body>
+
+</html>
