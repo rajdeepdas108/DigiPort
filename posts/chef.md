@@ -1,14 +1,38 @@
 ---
-title: Chef
-description: This is a photo called chef
-date: 2018-05-05
+title: HTML CSS Certificate
+description: This is a certificate of HTML CSS 
+date: 2024-11-24
 tags:
   - photo
 layout: layouts/post.njk
-image: /img/w3images/chef.jpg
+image: /img/w3images/hc.jpg
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer condimentum ex elit, quis varius ipsum mollis nec. Fusce dignissim suscipit tempus. Aenean convallis ex vel imperdiet interdum. Fusce sit amet ex ac nisi tristique dictum quis quis felis. Nulla pharetra at dolor non consectetur. Sed fermentum lobortis eros, ut accumsan ligula facilisis sit amet. Integer mollis ullamcorper mauris vitae lobortis. Cras eu justo sed neque pellentesque facilisis ut sed magna. Nunc sed tincidunt mauris, ut varius metus. Praesent molestie orci euismod purus sagittis, sit amet dignissim leo dapibus. Phasellus id mauris ut ipsum imperdiet finibus. Curabitur interdum sapien ac elit viverra vestibulum. Integer rutrum sed odio sit amet ultricies. Suspendisse placerat augue in odio placerat suscipit.
+**HTML (HyperText Markup Language)** and **CSS (Cascading Style Sheets)** are foundational technologies for building web pages:  
+
+### **HTML**  
+- Defines the **structure** and **content** of a webpage.  
+- Uses elements like headings (`<h1>`), paragraphs (`<p>`), links (`<a>`), and images (`<img>`).  
+- Acts as the skeleton of the webpage.  
+
+### **CSS**  
+- Styles and formats the HTML content to enhance visual appeal.  
+- Controls layout, colors, fonts, and responsiveness using rules and selectors.  
+- Enables flexible designs through features like **Flexbox**, **Grid**, and **media queries** for responsive designs.  
+
+Together, HTML and CSS allow developers to create structured, visually appealing, and responsive web pages.
 
 ![alt text]({{ image | url }} "Chef")
 
-Sed eu imperdiet augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut dignissim purus eu augue euismod, eget tempor velit ullamcorper. Cras in ullamcorper lectus. Quisque eleifend nibh eget dolor tincidunt, a facilisis mauris semper. Aenean tincidunt felis sem, eu rutrum ante posuere sed. Aliquam leo sapien, pulvinar sit amet enim sit amet, feugiat interdum felis. Aenean scelerisque pellentesque ante in pellentesque. Nulla eu sagittis ligula. Maecenas ut mauris eros. Quisque eget ipsum eget odio fermentum imperdiet. Integer rhoncus eleifend velit, eget mattis nulla auctor eget.
+**HTML (HyperText Markup Language)** and **CSS (Cascading Style Sheets)** are foundational technologies for building web pages:  
+
+### **HTML**  
+- Defines the **structure** and **content** of a webpage.  
+- Uses elements like headings (`<h1>`), paragraphs (`<p>`), links (`<a>`), and images (`<img>`).  
+- Acts as the skeleton of the webpage.  
+
+### **CSS**  
+- Styles and formats the HTML content to enhance visual appeal.  
+- Controls layout, colors, fonts, and responsiveness using rules and selectors.  
+- Enables flexible designs through features like **Flexbox**, **Grid**, and **media queries** for responsive designs.  
+
+Together, HTML and CSS allow developers to create structured, visually appealing, and responsive web pages.
