@@ -1,93 +1,154 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ metadata.title }}</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js">
-  <style>
-    /* 3D Header Style */
-    header {
-      perspective: 1000px;
-    }
+---
+layout: layouts/home.njk
+fa-icon: 'fa-home'
+eleventyNavigation:
+  key: Home
+  order: 1
+  url: /#
+---
+<header class="w3-container w3-padding-32 w3-center w3-black header-3d" id="home">
+  <h1 class="w3-jumbo">
+    <span class="w3-hide-small">I'm</span> {{ metadata.title }}.
+  </h1>
+  <p>Innovator in Tech | Founder of BongBeast Infotech Pvt. Ltd. | Future-Ready Technologist</p>
+  <img src="{{ 'img/w3images/r.jpg' | url }}" alt="boy" class="w3-image header-img" width="992" height="1108">
+</header>
 
-    header img {
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.23);
-      transform: rotateY(-15deg);
-      transition: transform 0.5s, box-shadow 0.5s;
-    }
+<style>
+/* General 3D and animation styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #1f1f1f, #343434);
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
-    header img:hover {
-      transform: rotateY(0deg);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 8px 8px rgba(0, 0, 0, 0.26);
-    }
+header {
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+}
 
-    /* 3D Buttons */
-    button {
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.12);
-      transition: box-shadow 0.3s ease, transform 0.3s ease;
-    }
+.header-3d h1 {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 700;
+}
 
-    button:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.35), 0 2px 4px rgba(0, 0, 0, 0.22);
-    }
+.header-img {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
-    /* 3D Cards */
-    .w3-ul li {
-      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.15);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+.header-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+}
 
-    .w3-ul li:hover {
-      transform: scale(1.05);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 4px 8px rgba(0, 0, 0, 0.18);
-    }
+.w3-text-light-grey {
+  color: #e0e0e0 !important;
+}
 
-    /* 3D Image Grid */
-    .column img {
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.15);
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-    }
+/* Skill Bars */
+.w3-wide {
+  font-weight: bold;
+}
 
-    .column img:hover {
-      transform: scale(1.1) rotate(2deg);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3), 0 10px 20px rgba(0, 0, 0, 0.25);
-    }
+.w3-dark-grey {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
-    /* Smooth Scroll Effect */
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
-</head>
-<body class="w3-black">
+/* Pricing Cards */
+.w3-ul {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+}
 
-<!-- Original Code Begins -->
-{{ your full code pasted here, unchanged }}
-<!-- Original Code Ends -->
+.w3-ul:hover {
+  transform: scale(1.05);
+}
 
-<!-- Footer with 3D Animation -->
-<footer class="w3-padding-32 w3-center w3-black">
-  <p>Powered by <span style="color: #f44336;">BongBeast Infotech Pvt. Ltd.</span></p>
-  <p class="w3-text-grey">© 2024 Rajdeep Das | All Rights Reserved</p>
-</footer>
+.w3-dark-grey.w3-xlarge {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+}
 
-<script>
-  // Add a subtle 3D hover effect on buttons
-  document.querySelectorAll("button").forEach(button => {
-    button.addEventListener("mouseenter", () => {
-      button.style.transform = "translateY(-5px)";
-      button.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.3)";
-    });
+.w3-ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-    button.addEventListener("mouseleave", () => {
-      button.style.transform = "translateY(0)";
-      button.style.boxShadow = "0 4px 6px rgba(0, 0, 0, 0.3)";
-    });
-  });
-</script>
-</body>
-</html>
+.w3-ul li:last-child {
+  border: none;
+}
+
+button.w3-button.w3-white {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button.w3-button.w3-white:hover {
+  background: linear-gradient(45deg, #ff758c, #ff7eb3);
+  transform: translateY(-3px);
+}
+
+/* Testimonials */
+img.w3-circle {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.w3-margin-right {
+  transition: transform 0.2s ease;
+}
+
+.w3-margin-right:hover {
+  transform: scale(1.1);
+}
+
+/* Contact Section */
+form {
+  max-width: 600px;
+  margin: auto;
+  background: #2e2e2e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+form input {
+  border: none;
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 15px;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+
+form input:focus {
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  width: 100%;
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(45deg, #dd2476, #ff512f);
+  transform: scale(1.02);
+}
+</style>
