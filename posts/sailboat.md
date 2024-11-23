@@ -6,7 +6,6 @@ tags:
   - photo
 layout: layouts/post.njk
 image: /img/w3images/wd.jpg
-image: /img/w3images/px.jpg
 ---
 **Web development** involves creating and maintaining websites and web applications. It encompasses two main areas:  
 
